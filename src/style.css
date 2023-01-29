@@ -4,18 +4,22 @@
 }
 
 :root {
-  --primary-color: rgb(255, 137, 2);
-  --secondary-color: rgb(255, 211, 145);
+  --primary-color: #ff7800;
+  --secondary-color: #fef9a7;
   --font-color: white;
-  --third-color: rgb(168, 168, 168);
-  --fourth-color: rgb(255, 235, 124);
-  --btn-color: rgb(236, 107, 1);
+  --third-color: #f7f7f7;
+  --fourth-color: #ffe300;
 }
 
 /* HERO */
 
 .hero {
-  background-color: var(--primary-color);
+  background: rgb(255, 176, 0);
+  background: linear-gradient(
+    0deg,
+    rgba(255, 176, 0, 0.5326505602240896) 8%,
+    rgba(255, 120, 0, 1) 32%
+  );
 }
 
 .hero-image {
@@ -30,9 +34,13 @@
 .left-hero span {
   color: var(--font-color);
 }
-
+.left-hero p {
+  color: var(--secondary-color);
+}
 .messages {
-  background-color: var(--secondary-color);
+  width: 70%;
+  margin: auto;
+  background-color: var(--third-color);
   border-radius: 5px;
 }
 
@@ -50,7 +58,7 @@
 }
 
 .btn {
-  background-color: var(--btn-color);
+  background-color: var(--primary-color);
   border: none;
   color: var(--font-color);
 }

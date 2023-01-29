@@ -52,4 +52,13 @@
   .carousel-item {
     height: auto;
   }
+
+  .cta-footer {
+    height: 250px;
+  }
+
+  .messages {
+    width: 90%;
+    margin: auto;
+  }
 }
